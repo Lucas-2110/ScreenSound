@@ -1,15 +1,15 @@
-﻿Musica musica1 = new Musica();
-musica1.Nome = "Essência da paixão";
-musica1.Artista = "Grupo Revelação";
-musica1.Duracao = 286;
-musica1.Disponivel = true;
-Console.WriteLine(musica1.DescricaoResumida);
+﻿Album albumDoQueen = new Album();
+albumDoQueen.Nome = "A night at the oera";
+
+Musica musica1 = new Musica();
+musica1.Nome = "Love of my life";
+musica1.Duracao = 213;
 
 Musica musica2 = new Musica();
-musica2.Nome = "Jesus Chorou";
-musica2.Artista = "Racionais";
-musica2.Duracao = 568;
-musica2.Disponivel = false;
+musica2.Nome = "Bohemian Rhapsody";
+musica2.Duracao = 354;
 
-musica1.ExibirFichaTecnica();
-musica2.ExibirFichaTecnica();
+albumDoQueen.AdicionarMusica(musica1);
+albumDoQueen.AdicionarMusica(musica2);
+
+albumDoQueen.ExibirMusicaDoAlbum();
