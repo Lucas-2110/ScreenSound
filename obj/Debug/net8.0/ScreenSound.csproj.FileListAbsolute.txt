@@ -12,3 +12,4 @@ C:\Users\lucas.oliveira\OneDrive - Mttechne\Área de Trabalho\Projetos\ScreenSou
 C:\Users\lucas.oliveira\OneDrive - Mttechne\Área de Trabalho\Projetos\ScreenSound\obj\Debug\net8.0\ScreenSound.pdb
 C:\Users\lucas.oliveira\OneDrive - Mttechne\Área de Trabalho\Projetos\ScreenSound\obj\Debug\net8.0\ScreenSound.genruntimeconfig.cache
 C:\Users\lucas.oliveira\OneDrive - Mttechne\Área de Trabalho\Projetos\ScreenSound\obj\Debug\net8.0\ref\ScreenSound.dll
+C:\Users\lucas.oliveira\OneDrive - Mttechne\Área de Trabalho\Projetos\ScreenSound\obj\Debug\net8.0\ScreenSound.sourcelink.json
