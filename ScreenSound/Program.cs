@@ -1,13 +1,15 @@
-﻿Musica musica1 = new Musica();
-musica1.nome = "Manchild";
-musica1.artista = "Sabrina Carpinteira";
+﻿Album albumDoQueen = new Album();
+albumDoQueen.Nome = "A night at the opera";
 
-Console.WriteLine($"O nome da música é {musica1.nome}");
-Console.WriteLine($"O nome do artista é {musica1.artista}");
+Musica musica1 = new Musica();
+musica1.Nome = "Bohemian Rhapsody";
+musica1.Duracao = 354;
 
 Musica musica2 = new Musica();
-musica2.nome = "You rock my word";
-musica2.artista = "Michael Jackson";
+musica2.Nome = "Love of my life";
+musica2.Duracao = 213;
 
-Console.WriteLine($"\nO nome da música é {musica2.nome}");
-Console.WriteLine($"O nome do artista é {musica2.artista}");
+albumDoQueen.AdicionarMusica(musica1);
+albumDoQueen.AdicionarMusica(musica2);
+
+albumDoQueen.ExibirMusicasDoAlbum();
