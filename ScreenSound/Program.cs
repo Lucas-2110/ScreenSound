@@ -30,9 +30,11 @@ ep1.AdicionarConvidado("Gustavo Guanabara");
 ep1.AdicionarConvidado("Ana Clara");
 
 Episodio ep2 = new(1, "Técnica de aprendizado", 67);
-ep1.AdicionarConvidado("Fernando");
-ep1.AdicionarConvidado("Lucas");
+ep2.AdicionarConvidado("Fernando");
+ep2.AdicionarConvidado("Lucas");
 
 Podcast podcast = new("Podcast Especial", "Lucas");
 podcast.AdicionarEpisodio(ep1);
 podcast.AdicionarEpisodio(ep2);
+
+podcast.ExibirDetalhes();
